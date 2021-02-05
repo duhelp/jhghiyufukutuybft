@@ -1,12 +1,12 @@
 <?php
 require_once 'razorpay-php/Razorpay.php';
-$keyId='rzp_test_RnFKpTup4T425G';
-$secretKey = 'mjkbNKV1rgPIPNhDR5D8ecyD';
+//$keyId='rzp_test_RnFKpTup4T425G';
+//$secretKey = 'mjkbNKV1rgPIPNhDR5D8ecyD';
 use Razorpay\Api\Api;
 use yii\helpers\Url;
-// $keyId='rzp_live_U1m9d9uBMh1IFj';
+$keyId='rzp_live_U1m9d9uBMh1IFj';
 
-// $secretKey = 'IGcvpcNMs3KMprZznhrMiI5g';
+$secretKey = 'IGcvpcNMs3KMprZznhrMiI5g';
 use app\modules\paytm\models\LibConfigPaytm;
 use app\modules\paytm\models\LibEncdecPaytm;
 use app\modules\payment\models\PaymentGateway;
