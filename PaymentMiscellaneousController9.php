@@ -184,11 +184,11 @@ class PaymentMiscellaneousController extends Controller
         $logpay = new JIPayTempData();
         $logpay->data = serialize($_POST);
         $logpay->save(false);
-        $keyId = 'rzp_test_RnFKpTup4T425G';
-        $secretKey = 'mjkbNKV1rgPIPNhDR5D8ecyD';
-        // $keyId='rzp_live_U1m9d9uBMh1IFj';
+        //$keyId = 'rzp_test_RnFKpTup4T425G';
+        //$secretKey = 'mjkbNKV1rgPIPNhDR5D8ecyD';
+        $keyId='rzp_live_U1m9d9uBMh1IFj';
 
-        // $secretKey = 'IGcvpcNMs3KMprZznhrMiI5g';
+        $secretKey = 'IGcvpcNMs3KMprZznhrMiI5g';
         $api = new Api($keyId, $secretKey);
         $success = false;
         
